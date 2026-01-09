@@ -1,7 +1,10 @@
+
+
 .continer{
     max-width: 1600px;
     margin: auto;
 }
+
 .nav-parent{
       display: flex;
     justify-content: space-around;
@@ -17,15 +20,19 @@
     text-decoration: none;
     color: black;
 }
-.button-primary{
+.button-primary {
     background-color: #30B868;
     color: white;
     padding: 8px;
     border: none;
 }
+.button-primary:hover{
+  background-color: #16a34a;
+  transition: 0.3s ease;
+}
 
 
-
+/* top-section */
 
 .top-section{
    background-image: url(./assets/hero-bg.png);
@@ -69,7 +76,7 @@
 
 
 
-/* card-part */
+/* card-section */
 
 .card-section{
 
@@ -81,10 +88,15 @@ text-align: center;
 }
 .card-header h1{
     font-size: 48px;
-        
+
 }
 .card-parent{
     display: flex;
+    flex-direction: row;
+  text-align: center;
+    gap: 10px;
+
+
 }
 .card-parent img{
     background-color: red;
@@ -92,27 +104,90 @@ text-align: center;
     padding: 10px
 }
 
+  .card-child-1{
+    margin: 6px;
+    background-color: rgb(252, 248, 248);
+    padding: 40px;
+  }
+  .card-child-2{
+    background-color: rgb(252, 248, 248);
+    margin: 6px;
+    padding: 40px;
+  }
+.card-child-3{
+    margin: 6px;
+    background-color: rgb(252, 248, 248);
+    padding: 40px;
+  }
+.card-child-4{
+    margin: 6px;
+    background-color: rgb(252, 248, 248);
+    padding: 40px;
+  }
+/* idea-section */
 
-
-
-.two-part-parent{
+.idea-parent{
     display: flex;
+    margin-top: 50px;
 }
+.idea-main-img{
+  width: 500px;
+  height: 400px;
+}
+.idea-child-1{
 
-
-.Chick-parent div{
+  padding:100px 120px;
+}
+.idea-child-2 img{
   display: flex;
+ width: 20px;
+  height: 20px;
+  padding-top: 14px;
+
 }
 
+.click-img-1 {
+  display: flex;
+gap: 5px;
+}
 
- /* last section */
+.click-img-2 {
+  display: flex;
+gap: 5px;
+}
+
+.click-img-3 {
+  display: flex;
+gap: 5px;
+}
+
+.click-img-4 {
+  display: flex;
+gap: 5px;
+}
+
+ /* challage-section */
 
 .challage-section{
+  margin: 30px auto;
     text-align: center;
+    
+}
+.challage-parent{
+ background-color:rgba(247, 246, 242, 1);
+ padding: 50px 260px;
 }
 
+ 
 
+/* footer */
 .footer-parent{
     display: flex;
     justify-content: space-between;
+}
+
+
+.challage-section{
+  justify-content: center;
+  padding: 100px;
 }
